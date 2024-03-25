@@ -20,21 +20,21 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.91-MS | 118.352MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.91-MS | 248.922MB
   server: 104.21.51.242
   port: 2087
   type: trojan
   password: 7bc052e2-f009-4fc9-91a3-dd8410a5784f
   sni: grpcfr.arminhadadi.site
   skip-cert-verify: false
-- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.84-MS | 117.75MB
+- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.84-MS | 196.852MB
   server: 188.114.98.0
   port: 443
   type: trojan
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   sni: hdfy7c1.foriran2.eu.org
   skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.76-MS | 108.328MB
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.76-MS | 181.424MB
   server: 172.67.192.61
   port: 2087
   type: trojan
@@ -46,18 +46,18 @@ proxy-groups:
   type: select
   proxies:
   - Ping
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.91-MS | 118.352MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.84-MS | 117.75MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.76-MS | 108.328MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.91-MS | 248.922MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.84-MS | 196.852MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.76-MS | 181.424MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.91-MS | 118.352MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.84-MS | 117.75MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.76-MS | 108.328MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.91-MS | 248.922MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.84-MS | 196.852MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.76-MS | 181.424MB
 rule-providers:
   direct:
     type: http
