@@ -20,248 +20,242 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-014.46-MS | 157.16MB
-  server: 162.251.82.187
-  port: 2087
-  type: trojan
-  password: 8380da47-5632-4b0a-8047-b0939f797112
-  sni: ritel.havafaza.shop
-  skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-014.41-MS | 130.863MB
-  server: 162.251.82.187
-  port: 2087
-  type: trojan
-  password: 8380da47-5632-4b0a-8047-b0939f797112
-  sni: ritel.havafaza.shop
-  skip-cert-verify: false
-- name: VM-GRPC-TLS🏴‍☠️NA-104.24.197.20:443📡PING-003.46-MS | 109.714MB
-  server: 104.24.197.20
-  port: 443
-  type: vmess
-  uuid: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: VM-GRPC-TLS🏴‍☠️NA-104.24.197.20:443📡PING-003.46-MS | 109.714MB
-  network: grpc
-  grpc-opts:
-    grpc-service-name: sNpuhb8v1rEIIYTVEagC5V7fI
-- name: 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-002.61-MS | 105.322MB
-  server: 172.67.204.84
-  port: 443
-  type: trojan
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  sni: cdn-21.gsmxreality.com
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-002.50-MS | 96.337MB
-  server: 104.26.14.85
-  port: 2083
-  type: trojan
-  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
-  sni: taqboostan.zagros.top
-  skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-002.48-MS | 90.464MB
-  server: 172.67.204.84
-  port: 443
-  type: trojan
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  sni: cdn-21.gsmxreality.com
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-002.40-MS | 83.724MB
-  server: 104.21.51.242
-  port: 2087
-  type: trojan
-  password: 241f01b9-8dfc-474f-8342-3fbd5c46417e
-  sni: grpcfr.arminhadadi.site
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-002.40-MS | 78.633MB
-  server: 104.26.14.85
-  port: 2083
-  type: trojan
-  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
-  sni: taqboostan.zagros.top
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-002.35-MS | 78.447MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-001.82-MS | 157.16MB
   server: 104.18.203.232
   port: 2083
   type: trojan
   password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
   sni: laenatbar.seyedalikhameneibinamous.site
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-002.34-MS | 71.538MB
-  server: 104.21.51.242
-  port: 2087
-  type: trojan
-  password: 241f01b9-8dfc-474f-8342-3fbd5c46417e
-  sni: grpcfr.arminhadadi.site
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-002.27-MS | 69.435MB
-  server: 104.21.69.44
-  port: 443
-  type: trojan
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  sni: cdn-21.gsmxreality.com
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-002.25-MS | 65.841MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-001.78-MS | 130.863MB
   server: 104.18.203.232
   port: 2083
   type: trojan
   password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
   sni: laenatbar.seyedalikhameneibinamous.site
   skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-002.24-MS | 64.144MB
-  server: 172.67.192.61
-  port: 2087
-  type: trojan
-  password: 241f01b9-8dfc-474f-8342-3fbd5c46417e
-  sni: grpcfr.arminhadadi.site
-  skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-002.23-MS | 54.202MB
-  server: 172.67.148.211
-  port: 2083
-  type: trojan
-  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
-  sni: taqboostan.zagros.top
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-002.19-MS | 52.577MB
-  server: 104.21.69.44
+- name: 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-001.76-MS | 109.714MB
+  server: 172.67.204.84
   port: 443
   type: trojan
   password: qj1Dz1CJmFQRhWr1SP80aA
   sni: cdn-21.gsmxreality.com
   skip-cert-verify: false
-- name: 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-002.18-MS | 51.182MB
-  server: 188.114.96.3
+- name: TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.75-MS | 105.322MB
+  server: 104.18.202.232
   port: 2083
   type: trojan
-  password: b217b5b1-514d-4c56-b04a-789fc7bcf9d6
-  sni: taqboostan.zagros.top
+  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
+  sni: laenatbar.seyedalikhameneibinamous.site
   skip-cert-verify: false
-- name: 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-002.14-MS | 46.438MB
+- name: 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-001.74-MS | 96.337MB
   server: 188.114.96.3
   port: 2083
   type: trojan
   password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
   sni: majidrezarahnavard.pardazesh.tech
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-002.13-MS | 42.136MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.72-MS | 90.464MB
+  server: 104.18.202.232
+  port: 2083
+  type: trojan
+  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
+  sni: laenatbar.seyedalikhameneibinamous.site
+  skip-cert-verify: false
+- name: 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-001.71-MS | 83.724MB
+  server: 172.67.204.84
+  port: 443
+  type: trojan
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  sni: cdn-21.gsmxreality.com
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-001.70-MS | 78.633MB
   server: 104.26.3.186
   port: 2083
   type: trojan
   password: 656bcdfe-ae09-4170-a36e-1685ee10b26f
   sni: freeinternetforeveryone.segaro.tech
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-002.11-MS | 41.368MB
-  server: 104.26.3.186
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.69-MS | 78.447MB
+  server: 104.21.51.242
+  port: 2087
+  type: trojan
+  password: 241f01b9-8dfc-474f-8342-3fbd5c46417e
+  sni: grpcfr.arminhadadi.site
+  skip-cert-verify: false
+- name: 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-001.69-MS | 71.538MB
+  server: 188.114.96.3
   port: 2083
   type: trojan
-  password: 656bcdfe-ae09-4170-a36e-1685ee10b26f
-  sni: freeinternetforeveryone.segaro.tech
+  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
+  sni: majidrezarahnavard.pardazesh.tech
   skip-cert-verify: false
-- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-002.01-MS | 38.647MB
+- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.63-MS | 69.435MB
   server: 188.114.98.0
   port: 443
   type: trojan
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   sni: hdfy7c1.foriran2.eu.org
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-002.00-MS | 38.557MB
-  server: 104.18.202.232
+- name: TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-001.58-MS | 65.841MB
+  server: 104.26.3.186
+  port: 2083
+  type: trojan
+  password: 656bcdfe-ae09-4170-a36e-1685ee10b26f
+  sni: freeinternetforeveryone.segaro.tech
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.57-MS | 64.144MB
+  server: 104.21.51.242
+  port: 2087
+  type: trojan
+  password: 241f01b9-8dfc-474f-8342-3fbd5c46417e
+  sni: grpcfr.arminhadadi.site
+  skip-cert-verify: false
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-001.57-MS | 54.202MB
+  server: 172.67.148.211
+  port: 2083
+  type: trojan
+  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
+  sni: taqboostan.zagros.top
+  skip-cert-verify: false
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.56-MS | 52.577MB
+  server: 172.67.192.61
+  port: 2087
+  type: trojan
+  password: 241f01b9-8dfc-474f-8342-3fbd5c46417e
+  sni: grpcfr.arminhadadi.site
+  skip-cert-verify: false
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-001.54-MS | 51.182MB
+  server: 172.67.148.211
+  port: 2083
+  type: trojan
+  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
+  sni: taqboostan.zagros.top
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.50-MS | 46.438MB
+  server: 162.159.138.232
   port: 2083
   type: trojan
   password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
-  sni: laenatbar.seyedalikhameneibinamous.site
+  sni: madareto.seyedalikhameneibinamous.site
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.16.4.103:2087📡PING-001.99-MS | 38.55MB
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-001.46-MS | 42.136MB
+  server: 162.251.82.187
+  port: 2087
+  type: trojan
+  password: 8380da47-5632-4b0a-8047-b0939f797112
+  sni: ritel.havafaza.shop
+  skip-cert-verify: false
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-001.45-MS | 41.368MB
+  server: 162.251.82.187
+  port: 2087
+  type: trojan
+  password: 8380da47-5632-4b0a-8047-b0939f797112
+  sni: ritel.havafaza.shop
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-001.41-MS | 38.647MB
+  server: 104.26.14.85
+  port: 2083
+  type: trojan
+  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
+  sni: taqboostan.zagros.top
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.40-MS | 38.557MB
+  server: 104.21.69.44
+  port: 443
+  type: trojan
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  sni: cdn-21.gsmxreality.com
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-001.40-MS | 38.55MB
+  server: 104.26.14.85
+  port: 2083
+  type: trojan
+  password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
+  sni: taqboostan.zagros.top
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.38-MS | 38.182MB
+  server: 162.159.138.232
+  port: 2083
+  type: trojan
+  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
+  sni: madareto.seyedalikhameneibinamous.site
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.35-MS | 38.006MB
+  server: 104.21.69.44
+  port: 443
+  type: trojan
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  sni: cdn-21.gsmxreality.com
+  skip-cert-verify: false
+- name: TR-GRPC-TLS🏴‍☠️NA-104.16.4.103:2087📡PING-001.33-MS | 37.471MB
   server: 104.16.4.103
   port: 2087
   type: trojan
   password: 8380da47-5632-4b0a-8047-b0939f797112
   sni: mokhaber.havafaza.shop
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.91-MS | 38.182MB
-  server: 104.18.202.232
-  port: 2083
-  type: trojan
-  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
-  sni: laenatbar.seyedalikhameneibinamous.site
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.85-MS | 38.006MB
-  server: 162.159.138.232
-  port: 2083
-  type: trojan
-  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
-  sni: madareto.seyedalikhameneibinamous.site
-  skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.74-MS | 37.471MB
-  server: 162.159.138.232
-  port: 2083
-  type: trojan
-  password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
-  sni: madareto.seyedalikhameneibinamous.site
-  skip-cert-verify: false
 proxy-groups:
 - name: Core
   type: select
   proxies:
   - Ping
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-014.46-MS | 157.16MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-014.41-MS | 130.863MB
-  - VM-GRPC-TLS🏴‍☠️NA-104.24.197.20:443📡PING-003.46-MS | 109.714MB
-  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-002.61-MS | 105.322MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-002.50-MS | 96.337MB
-  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-002.48-MS | 90.464MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-002.40-MS | 83.724MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-002.40-MS | 78.633MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-002.35-MS | 78.447MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-002.34-MS | 71.538MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-002.27-MS | 69.435MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-002.25-MS | 65.841MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-002.24-MS | 64.144MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-002.23-MS | 54.202MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-002.19-MS | 52.577MB
-  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-002.18-MS | 51.182MB
-  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-002.14-MS | 46.438MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-002.13-MS | 42.136MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-002.11-MS | 41.368MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-002.01-MS | 38.647MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-002.00-MS | 38.557MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.16.4.103:2087📡PING-001.99-MS | 38.55MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.91-MS | 38.182MB
-  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.85-MS | 38.006MB
-  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.74-MS | 37.471MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-001.82-MS | 157.16MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-001.78-MS | 130.863MB
+  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-001.76-MS | 109.714MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.75-MS | 105.322MB
+  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-001.74-MS | 96.337MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.72-MS | 90.464MB
+  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-001.71-MS | 83.724MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-001.70-MS | 78.633MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.69-MS | 78.447MB
+  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-001.69-MS | 71.538MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.63-MS | 69.435MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-001.58-MS | 65.841MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.57-MS | 64.144MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-001.57-MS | 54.202MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.56-MS | 52.577MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-001.54-MS | 51.182MB
+  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.50-MS | 46.438MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-001.46-MS | 42.136MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-001.45-MS | 41.368MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-001.41-MS | 38.647MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.40-MS | 38.557MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-001.40-MS | 38.55MB
+  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.38-MS | 38.182MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.35-MS | 38.006MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.16.4.103:2087📡PING-001.33-MS | 37.471MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-014.46-MS | 157.16MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-014.41-MS | 130.863MB
-  - VM-GRPC-TLS🏴‍☠️NA-104.24.197.20:443📡PING-003.46-MS | 109.714MB
-  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-002.61-MS | 105.322MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-002.50-MS | 96.337MB
-  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-002.48-MS | 90.464MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-002.40-MS | 83.724MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-002.40-MS | 78.633MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-002.35-MS | 78.447MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-002.34-MS | 71.538MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-002.27-MS | 69.435MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-002.25-MS | 65.841MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-002.24-MS | 64.144MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-002.23-MS | 54.202MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-002.19-MS | 52.577MB
-  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-002.18-MS | 51.182MB
-  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-002.14-MS | 46.438MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-002.13-MS | 42.136MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-002.11-MS | 41.368MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-002.01-MS | 38.647MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-002.00-MS | 38.557MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.16.4.103:2087📡PING-001.99-MS | 38.55MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.91-MS | 38.182MB
-  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.85-MS | 38.006MB
-  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.74-MS | 37.471MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-001.82-MS | 157.16MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.203.232:2083📡PING-001.78-MS | 130.863MB
+  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-001.76-MS | 109.714MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.75-MS | 105.322MB
+  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-001.74-MS | 96.337MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.18.202.232:2083📡PING-001.72-MS | 90.464MB
+  - 🇺🇸TR-GRPC-NA🇺🇸US-172.67.204.84:443📡PING-001.71-MS | 83.724MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-001.70-MS | 78.633MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.69-MS | 78.447MB
+  - 🇳🇱TR-GRPC-TLS🇳🇱NL-188.114.96.3:2083📡PING-001.69-MS | 71.538MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-001.63-MS | 69.435MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.3.186:2083📡PING-001.58-MS | 65.841MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.51.242:2087📡PING-001.57-MS | 64.144MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-001.57-MS | 54.202MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.192.61:2087📡PING-001.56-MS | 52.577MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.148.211:2083📡PING-001.54-MS | 51.182MB
+  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.50-MS | 46.438MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-001.46-MS | 42.136MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-162.251.82.187:2087📡PING-001.45-MS | 41.368MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-001.41-MS | 38.647MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.40-MS | 38.557MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.26.14.85:2083📡PING-001.40-MS | 38.55MB
+  - TR-GRPC-TLS🏴‍☠️NA-162.159.138.232:2083📡PING-001.38-MS | 38.182MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.35-MS | 38.006MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.16.4.103:2087📡PING-001.33-MS | 37.471MB
 rule-providers:
   direct:
     type: http
