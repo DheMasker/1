@@ -20,14 +20,14 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 121.841MB
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 194.863MB
   server: 172.67.204.84
   port: 443
   type: trojan
   password: qj1Dz1CJmFQRhWr1SP80aA
   sni: cdn-21.gsmxreality.com
   skip-cert-verify: false
-- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 116.097MB
+- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 187.447MB
   server: 188.114.98.0
   port: 443
   type: trojan
@@ -39,16 +39,16 @@ proxy-groups:
   type: select
   proxies:
   - Ping
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 121.841MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 116.097MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 194.863MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 187.447MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 121.841MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 116.097MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 194.863MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 187.447MB
 rule-providers:
   direct:
     type: http
