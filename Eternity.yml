@@ -20,35 +20,41 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 194.863MB
-  server: 172.67.204.84
-  port: 443
-  type: trojan
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  sni: cdn-21.gsmxreality.com
-  skip-cert-verify: false
-- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 187.447MB
+- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.30-MS | 194.863MB
   server: 188.114.98.0
   port: 443
   type: trojan
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   sni: hdfy7c1.foriran2.eu.org
   skip-cert-verify: false
+- name: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 187.447MB
+  server: 104.19.25.223
+  port: 8443
+  type: vmess
+  uuid: c8c6d711-eebf-49e6-a59a-632385e53696
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 187.447MB
+  network: grpc
+  grpc-opts:
+    grpc-service-name: /
 proxy-groups:
 - name: Core
   type: select
   proxies:
   - Ping
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 194.863MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 187.447MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.30-MS | 194.863MB
+  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 187.447MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-172.67.204.84:443📡PING-007.68-MS | 194.863MB
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.23-MS | 187.447MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.30-MS | 194.863MB
+  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 187.447MB
 rule-providers:
   direct:
     type: http
