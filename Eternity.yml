@@ -20,14 +20,14 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.30-MS | 153.107MB
+- name: 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-002.70-MS | 153.107MB
   server: 188.114.98.0
   port: 443
   type: trojan
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   sni: hdfy7c1.foriran2.eu.org
   skip-cert-verify: false
-- name: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 140.985MB
+- name: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.66-MS | 140.985MB
   server: 104.19.25.223
   port: 8443
   type: vmess
@@ -36,7 +36,20 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 140.985MB
+  servername: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.66-MS | 140.985MB
+  network: grpc
+  grpc-opts:
+    grpc-service-name: /
+- name: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.64-MS | 122.42MB
+  server: 104.19.25.223
+  port: 8443
+  type: vmess
+  uuid: c8c6d711-eebf-49e6-a59a-632385e53696
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.64-MS | 122.42MB
   network: grpc
   grpc-opts:
     grpc-service-name: /
@@ -45,16 +58,18 @@ proxy-groups:
   type: select
   proxies:
   - Ping
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.30-MS | 153.107MB
-  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 140.985MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-002.70-MS | 153.107MB
+  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.66-MS | 140.985MB
+  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.64-MS | 122.42MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-005.30-MS | 153.107MB
-  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-005.12-MS | 140.985MB
+  - 🇳🇱TR-GRPC-NA🇳🇱NL-188.114.98.0:443📡PING-002.70-MS | 153.107MB
+  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.66-MS | 140.985MB
+  - VM-GRPC-TLS🏴‍☠️NA-104.19.25.223:8443📡PING-002.64-MS | 122.42MB
 rule-providers:
   direct:
     type: http
