@@ -20,35 +20,35 @@ dns:
     geoip: true
     geoip-code: IR
 proxies:
-- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.79-MS | 126.57MB
+- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.79-MS | 135.935MB
   server: 8.218.144.57
   port: 31116
   type: trojan
   password: dfeb4fd8-b9a6-341b-854b-da64d588b637
   sni: hkvip103.qlgq.fun
   skip-cert-verify: false
-- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.86-MS | 122.098MB
+- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.86-MS | 135.063MB
   server: 8.218.144.57
   port: 31116
   type: trojan
   password: dfeb4fd8-b9a6-341b-854b-da64d588b637
   sni: hkvip103.qlgq.fun
   skip-cert-verify: false
-- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.59-MS | 120.509MB
+- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.59-MS | 119.761MB
   server: 8.218.144.57
   port: 21116
   type: trojan
   password: dfeb4fd8-b9a6-341b-854b-da64d588b637
   sni: hkvip103.qlgq.fun
   skip-cert-verify: false
-- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.68-MS | 116.741MB
+- name: 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.68-MS | 114.32MB
   server: 8.218.144.57
   port: 21116
   type: trojan
   password: dfeb4fd8-b9a6-341b-854b-da64d588b637
   sni: hkvip103.qlgq.fun
   skip-cert-verify: false
-- name: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 113.535MB
+- name: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 105.178MB
   server: 103.151.121.138
   port: 34237
   type: vmess
@@ -57,11 +57,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 113.535MB
+  servername: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 105.178MB
   network: grpc
   grpc-opts:
     grpc-service-name: /
-- name: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 113.535MB
+- name: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 104.184MB
   server: 103.151.121.138
   port: 34237
   type: vmess
@@ -70,60 +70,60 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 113.535MB
+  servername: VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 104.184MB
   network: grpc
   grpc-opts:
     grpc-service-name: /
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-001.47-MS | 105.274MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-001.47-MS | 103.532MB
   server: 172.67.175.243
   port: 2053
   type: trojan
   password: 1883668e14d4a92
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.23-MS | 100.782MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.23-MS | 100.914MB
   server: 104.21.69.44
   port: 443
   type: trojan
   password: qj1Dz1CJmFQRhWr1SP80aA
   sni: cdn-21.gsmxreality.com
   skip-cert-verify: false
-- name: 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.13-MS | 100.085MB
+- name: 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.13-MS | 99.697MB
   server: 23.227.39.47
   port: 2053
   type: trojan
   password: 67f7c9b0495fe9d
   sni: pro.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-NA🏴‍☠️NA-188.114.98.0:443📡PING-001.05-MS | 94.759MB
+- name: TR-GRPC-NA🏴‍☠️NA-188.114.98.0:443📡PING-001.05-MS | 95.858MB
   server: 188.114.98.0
   port: 443
   type: trojan
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   sni: hdfy7c1.foriran2.eu.org
   skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-001.03-MS | 91.392MB
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-001.03-MS | 75.112MB
   server: 154.85.99.134
   port: 2053
   type: trojan
   password: 7784d85fde1eed0
   sni: pro.followprovider.ir
   skip-cert-verify: false
-- name: 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.02-MS | 90.819MB
+- name: 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.02-MS | 72.095MB
   server: 23.227.39.47
   port: 2053
   type: trojan
   password: 67f7c9b0495fe9d
   sni: pro.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.99-MS | 89.243MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.99-MS | 70.772MB
   server: 104.21.69.44
   port: 2096
   type: trojan
   password: Dg08mPrWhM
   sni: DL.ParhAmtrabERThOs.Ir
   skip-cert-verify: false
-- name: VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 84.766MB
+- name: VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 61.914MB
   server: 188.114.96.6
   port: 443
   type: vmess
@@ -132,18 +132,18 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 84.766MB
+  servername: VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 61.914MB
   network: grpc
   grpc-opts:
     grpc-service-name: argo
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.98-MS | 84.735MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.98-MS | 55.197MB
   server: 104.21.69.44
   port: 2096
   type: trojan
   password: Dg08mPrWhM
   sni: DL.ParhAmtrabERThOs.Ir
   skip-cert-verify: false
-- name: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 81.542MB
+- name: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 53.439MB
   server: 23.227.39.47
   port: 2083
   type: vmess
@@ -152,102 +152,102 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 81.542MB
+  servername: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 53.439MB
   network: grpc
   grpc-opts:
     grpc-service-name: 23.227.39.47
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-000.95-MS | 81.456MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-000.95-MS | 49.254MB
   server: 172.67.175.243
   port: 2053
   type: trojan
   password: 1883668e14d4a92
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.94-MS | 76.884MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.94-MS | 43.844MB
   server: 104.21.20.148
   port: 2087
   type: trojan
   password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
   sni: us1.trojanvpn.de
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.93-MS | 76.452MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.93-MS | 38.712MB
   server: 104.21.20.148
   port: 2087
   type: trojan
   password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
   sni: us1.trojanvpn.de
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-000.92-MS | 72.775MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-000.92-MS | 38.557MB
   server: 104.21.69.44
   port: 443
   type: trojan
   password: qj1Dz1CJmFQRhWr1SP80aA
   sni: cdn-21.gsmxreality.com
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2096📡PING-000.92-MS | 63.233MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2096📡PING-000.92-MS | 38.557MB
   server: 172.67.204.84
   port: 2096
   type: trojan
   password: Dg08mPrWhM
   sni: DL.ParhAmtrabERThOs.Ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.91-MS | 58.95MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.91-MS | 37.944MB
   server: 104.21.72.61
   port: 2053
   type: trojan
   password: 1883668e14d4a92
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.90-MS | 54.831MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.90-MS | 36.821MB
   server: 104.21.69.44
   port: 2053
   type: trojan
   password: a9d4426f1c76c6b
   sni: bestfollower.fandlaandpro.ir
   skip-cert-verify: false
-- name: 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-000.90-MS | 52.045MB
+- name: 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-000.90-MS | 36.536MB
   server: 154.85.99.134
   port: 2053
   type: trojan
   password: 7784d85fde1eed0
   sni: pro.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.89-MS | 51.046MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.89-MS | 36.12MB
   server: 104.21.69.44
   port: 2053
   type: trojan
   password: a9d4426f1c76c6b
   sni: bestfollower.fandlaandpro.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.86-MS | 48.42MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.86-MS | 33.854MB
   server: 172.64.150.2
   port: 443
   type: trojan
   password: c5a16410-1fc2-497d-8619-c2dbb5c6fd1b
   sni: PROOFoLlowEer.bArTaRiNPANELLiranFoLlowErBeGIRiraNpANELllIKeaRzOn.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.84-MS | 48.349MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.84-MS | 32.679MB
   server: 104.21.72.61
   port: 443
   type: trojan
   password: ea89010a23f8737
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.83-MS | 48.158MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.83-MS | 30.488MB
   server: 104.21.72.61
   port: 2053
   type: trojan
   password: 1883668e14d4a92
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.82-MS | 42.554MB
+- name: TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.82-MS | 29.299MB
   server: 104.21.72.61
   port: 443
   type: trojan
   password: ea89010a23f8737
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 40.176MB
+- name: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 24.994MB
   server: 23.227.39.47
   port: 2083
   type: vmess
@@ -256,67 +256,67 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 40.176MB
+  servername: 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 24.994MB
   network: grpc
   grpc-opts:
     grpc-service-name: 23.227.39.47
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.79-MS | 36.939MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.79-MS | 24.966MB
   server: 172.67.193.36
   port: 2087
   type: trojan
   password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
   sni: us1.trojanvpn.de
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.79-MS | 34.219MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.79-MS | 24.855MB
   server: 172.64.150.2
   port: 443
   type: trojan
   password: c5a16410-1fc2-497d-8619-c2dbb5c6fd1b
   sni: PROOFoLlowEer.bArTaRiNPANELLiranFoLlowErBeGIRiraNpANELllIKeaRzOn.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.77-MS | 33.061MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.77-MS | 23.965MB
   server: 172.67.204.84
   port: 2053
   type: trojan
   password: a9d4426f1c76c6b
   sni: bestfollower.fandlaandpro.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.77-MS | 32.852MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.77-MS | 22.479MB
   server: 172.67.175.243
   port: 443
   type: trojan
   password: ea89010a23f8737
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.76-MS | 30.011MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.76-MS | 19.728MB
   server: 172.67.193.36
   port: 2087
   type: trojan
   password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
   sni: us1.trojanvpn.de
   skip-cert-verify: false
-- name: TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.76-MS | 29.949MB
+- name: TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.76-MS | 19.275MB
   server: 154.194.12.61
   port: 2053
   type: trojan
   password: 6c95db9bac9cbd9
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.75-MS | 29.382MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.75-MS | 19.023MB
   server: 172.67.204.84
   port: 2053
   type: trojan
   password: a9d4426f1c76c6b
   sni: bestfollower.fandlaandpro.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.71-MS | 29.16MB
+- name: TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.71-MS | 18.861MB
   server: 172.67.175.243
   port: 443
   type: trojan
   password: ea89010a23f8737
   sni: frankfoortvip.followprovider.ir
   skip-cert-verify: false
-- name: TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.69-MS | 28.711MB
+- name: TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.69-MS | 17.935MB
   server: 154.194.12.61
   port: 2053
   type: trojan
@@ -328,90 +328,90 @@ proxy-groups:
   type: select
   proxies:
   - Ping
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.79-MS | 126.57MB
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.86-MS | 122.098MB
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.59-MS | 120.509MB
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.68-MS | 116.741MB
-  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 113.535MB
-  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 113.535MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-001.47-MS | 105.274MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.23-MS | 100.782MB
-  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.13-MS | 100.085MB
-  - TR-GRPC-NA🏴‍☠️NA-188.114.98.0:443📡PING-001.05-MS | 94.759MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-001.03-MS | 91.392MB
-  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.02-MS | 90.819MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.99-MS | 89.243MB
-  - VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 84.766MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.98-MS | 84.735MB
-  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 81.542MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-000.95-MS | 81.456MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.94-MS | 76.884MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.93-MS | 76.452MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-000.92-MS | 72.775MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2096📡PING-000.92-MS | 63.233MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.91-MS | 58.95MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.90-MS | 54.831MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-000.90-MS | 52.045MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.89-MS | 51.046MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.86-MS | 48.42MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.84-MS | 48.349MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.83-MS | 48.158MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.82-MS | 42.554MB
-  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 40.176MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.79-MS | 36.939MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.79-MS | 34.219MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.77-MS | 33.061MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.77-MS | 32.852MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.76-MS | 30.011MB
-  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.76-MS | 29.949MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.75-MS | 29.382MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.71-MS | 29.16MB
-  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.69-MS | 28.711MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.79-MS | 135.935MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.86-MS | 135.063MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.59-MS | 119.761MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.68-MS | 114.32MB
+  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 105.178MB
+  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 104.184MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-001.47-MS | 103.532MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.23-MS | 100.914MB
+  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.13-MS | 99.697MB
+  - TR-GRPC-NA🏴‍☠️NA-188.114.98.0:443📡PING-001.05-MS | 95.858MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-001.03-MS | 75.112MB
+  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.02-MS | 72.095MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.99-MS | 70.772MB
+  - VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 61.914MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.98-MS | 55.197MB
+  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 53.439MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-000.95-MS | 49.254MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.94-MS | 43.844MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.93-MS | 38.712MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-000.92-MS | 38.557MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2096📡PING-000.92-MS | 38.557MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.91-MS | 37.944MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.90-MS | 36.821MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-000.90-MS | 36.536MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.89-MS | 36.12MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.86-MS | 33.854MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.84-MS | 32.679MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.83-MS | 30.488MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.82-MS | 29.299MB
+  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 24.994MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.79-MS | 24.966MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.79-MS | 24.855MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.77-MS | 23.965MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.77-MS | 22.479MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.76-MS | 19.728MB
+  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.76-MS | 19.275MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.75-MS | 19.023MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.71-MS | 18.861MB
+  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.69-MS | 17.935MB
 - name: Ping
   type: url-test
   url: https://api.telegram.org
   tolerance: 100
   interval: 3600
   proxies:
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.79-MS | 126.57MB
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.86-MS | 122.098MB
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.59-MS | 120.509MB
-  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.68-MS | 116.741MB
-  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 113.535MB
-  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 113.535MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-001.47-MS | 105.274MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.23-MS | 100.782MB
-  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.13-MS | 100.085MB
-  - TR-GRPC-NA🏴‍☠️NA-188.114.98.0:443📡PING-001.05-MS | 94.759MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-001.03-MS | 91.392MB
-  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.02-MS | 90.819MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.99-MS | 89.243MB
-  - VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 84.766MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.98-MS | 84.735MB
-  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 81.542MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-000.95-MS | 81.456MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.94-MS | 76.884MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.93-MS | 76.452MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-000.92-MS | 72.775MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2096📡PING-000.92-MS | 63.233MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.91-MS | 58.95MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.90-MS | 54.831MB
-  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-000.90-MS | 52.045MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.89-MS | 51.046MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.86-MS | 48.42MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.84-MS | 48.349MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.83-MS | 48.158MB
-  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.82-MS | 42.554MB
-  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 40.176MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.79-MS | 36.939MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.79-MS | 34.219MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.77-MS | 33.061MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.77-MS | 32.852MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.76-MS | 30.011MB
-  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.76-MS | 29.949MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.75-MS | 29.382MB
-  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.71-MS | 29.16MB
-  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.69-MS | 28.711MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.79-MS | 135.935MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:31116📡PING-220.86-MS | 135.063MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.59-MS | 119.761MB
+  - 🇭🇰TR-GRPC-TLS🇭🇰HK-8.218.144.57:21116📡PING-221.68-MS | 114.32MB
+  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.70-MS | 105.178MB
+  - VM-GRPC-TLS🇻🇳VN-103.151.121.138:34237📡PING-234.80-MS | 104.184MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-001.47-MS | 103.532MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-001.23-MS | 100.914MB
+  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.13-MS | 99.697MB
+  - TR-GRPC-NA🏴‍☠️NA-188.114.98.0:443📡PING-001.05-MS | 95.858MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-001.03-MS | 75.112MB
+  - 🇨🇦TR-GRPC-TLS🇨🇦CA-23.227.39.47:2053📡PING-001.02-MS | 72.095MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.99-MS | 70.772MB
+  - VM-GRPC-TLS🏴‍☠️NA-188.114.96.6:443📡PING-000.99-MS | 61.914MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2096📡PING-000.98-MS | 55.197MB
+  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.95-MS | 53.439MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:2053📡PING-000.95-MS | 49.254MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.94-MS | 43.844MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.20.148:2087📡PING-000.93-MS | 38.712MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:443📡PING-000.92-MS | 38.557MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2096📡PING-000.92-MS | 38.557MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.91-MS | 37.944MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.90-MS | 36.821MB
+  - 🇺🇸TR-GRPC-TLS🇺🇸US-154.85.99.134:2053📡PING-000.90-MS | 36.536MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.69.44:2053📡PING-000.89-MS | 36.12MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.86-MS | 33.854MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.84-MS | 32.679MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:2053📡PING-000.83-MS | 30.488MB
+  - TR-GRPC-TLS🏴‍☠️NA-104.21.72.61:443📡PING-000.82-MS | 29.299MB
+  - 🇨🇦VM-GRPC-TLS🇨🇦CA-23.227.39.47:2083📡PING-000.81-MS | 24.994MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.79-MS | 24.966MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.64.150.2:443📡PING-000.79-MS | 24.855MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.77-MS | 23.965MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.77-MS | 22.479MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.193.36:2087📡PING-000.76-MS | 19.728MB
+  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.76-MS | 19.275MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.204.84:2053📡PING-000.75-MS | 19.023MB
+  - TR-GRPC-TLS🏴‍☠️NA-172.67.175.243:443📡PING-000.71-MS | 18.861MB
+  - TR-GRPC-TLS🇮🇩ID-154.194.12.61:2053📡PING-000.69-MS | 17.935MB
 rule-providers:
   direct:
     type: http
